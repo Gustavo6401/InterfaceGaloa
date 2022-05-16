@@ -1,0 +1,42 @@
+@media only screen and (orientation: portrait) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .barra-navegacao {
+        display: none;
+    }
+
+    .detalhes {
+        display: none;
+    }
+
+    .secao-superior {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .titulo-2 {
+        margin: none;
+        
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .barra-navegacao {
+        float: left;
+        flex-direction: column;
+        height: 100%
+    }
+
+    .titulo-2 {        
+        margin-left: 40%;
+    }
+
+    .video {        
+        margin-left: 40%;
+    }
+}
